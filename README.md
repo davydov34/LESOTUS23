@@ -45,8 +45,8 @@ There was 1 failed login attempt since the last successful login.
 
 6. Проверяем наличие пользователей в группе admin:
 > [otusadm@pam ~]$ cat /etc/group | grep admin  
-printadmin\:x:996:  
-admin\:x:1003:root,vagrant,otusadm
+printadmin: x:996:  
+admin: x:1003:root,vagrant,otusadm
 
 7. Создаем файл скрипта login.sh и размещаем его в директории /usr/local/bin/, который имеет следующее содержание:
 ```bash
